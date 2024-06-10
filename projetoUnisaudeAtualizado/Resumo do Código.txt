@@ -1,0 +1,11 @@
+Código do BackEnd:
+
+Aqui tem o código do backend que teve base na atividade do curso "Rocksteat"
+Nele temos o UserModel que é o modelo de cadastro, lá tem nome, idade, email e as outras informações de cadastro.
+Temos também o UserController que é usado pra fazer os endpoints, lá vai ter os métodos post e get para salvar as informações no banco de dados.
+E temos o IUserRepository que é um local de armazenamento onde o endpoint vai recuperar as informações para fazer validações e o post no banco de dados.
+
+Foi resolvido o problema dos endspoints, onde não estava sendo possível realizar o método post pra salvar as informações. O erro estava no repositório
+foi utilizado a dependência Spring Data JPA pra resolver o problema.
+
+Falta agora fazer a integração com o frontend e fazer um código no UserModel para seleção de gênero.
